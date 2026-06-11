@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Tech Career Explore
+    </title>
+</head>
+
+<body>
+    <header>
+
+
+        <a class="head-icon" href="#">
+            <div class="image-icon">
+                <img src="Icon.png" alt="" height="60" width="60">
+            </div>
+            <span class="nav-left">
+                TechCareer
+            </span>
+        </a>
+        <button class="menu-btn">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <nav class="navbar" id="navLinks">
+            <a class="nav-one" href="">Launchpad</a>
+            <a class="nav-other" href="">Explore</a>
+            <a class="nav-other" href="">Career Paths</a>
+            <a class="nav-other" href="">Roadmaps</a>
+        </nav>
+        <div class="head-right">
+            <span class="nav-right">
+                Update 12-July-2026
+            </span>
+
+        </div>
+    </header>
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navLinks = document.querySelector("#navLinks");
+
+        menuBtn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            navLinks.classList.toggle("active");
+        });
+
+        document.addEventListener("click", (e) => {
+            if (!navLinks.contains(e.target)) {
+                navLinks.classList.remove("active");
+            }
+        });
+    </script>
+</body>
+
+</html>
