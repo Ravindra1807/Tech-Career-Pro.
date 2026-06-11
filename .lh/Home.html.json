@@ -1,0 +1,18 @@
+{
+    "sourceFile": "Home.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1781144976823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1781144976823,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link href=\"https://fonts.googleapis.com/css2?family=Space+Mono:wght@400&display=swap\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css\">\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <title>\n        Tech Career Explore\n    </title>\n</head>\n\n<body>\n    <header>\n\n\n        <a class=\"head-icon\" href=\"#\">\n            <div class=\"image-icon\">\n                <img src=\"Icon.png\" alt=\"\" height=\"60\" width=\"60\">\n            </div>\n            <span class=\"nav-left\">\n                TechCareer\n            </span>\n        </a>\n        <button class=\"menu-btn\">\n            <i class=\"fa-solid fa-bars-staggered\"></i>\n        </button>\n        <nav class=\"navbar\" id=\"navLinks\">\n            <a class=\"nav-one\" href=\"\">Launchpad</a>\n            <a class=\"nav-other\" href=\"\">Explore</a>\n            <a class=\"nav-other\" href=\"\">Career Paths</a>\n            <a class=\"nav-other\" href=\"\">Roadmaps</a>\n        </nav>\n        <div class=\"head-right\">\n            <span class=\"nav-right\">\n                Update 12-July-2026\n            </span>\n\n        </div>\n    </header>\n\n    <script>\n        const menuBtn = document.querySelector(\".menu-btn\");\n        const navLinks = document.querySelector(\"#navLinks\");\n\n        menuBtn.addEventListener(\"click\", (e) => {\n            e.stopPropagation();\n            navLinks.classList.toggle(\"active\");\n        });\n\n        document.addEventListener(\"click\", (e) => {\n            if (!navLinks.contains(e.target)) {\n                navLinks.classList.remove(\"active\");\n            }\n        });\n    </script>\n</body>\n\n</html>"
+        }
+    ]
+}
