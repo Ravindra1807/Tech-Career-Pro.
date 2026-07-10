@@ -38,7 +38,7 @@
 
       .head-icon {
           color: #F8FAFC;
-          cursor: pointer;
+          cursor: text;
           gap: 10px;
           display: flex;
           justify-content: center;
@@ -662,8 +662,7 @@
 
       }
 
-      @media (max-width: 1020px) 
-      {
+      @media (max-width: 1020px) {
 
           .head-right {
               display: none;
@@ -679,8 +678,7 @@
       /* ============ RESPONSIVE DESIGN ============ */
 
 
-      @media (max-width: 768px) 
-      {
+      @media (max-width: 768px) {
 
           header {
               height: 70px;
@@ -696,7 +694,7 @@
               display: none;
           }
 
-           .navbar {
+          .navbar {
               display: none;
               position: absolute;
               top: 70px;
@@ -735,7 +733,7 @@
               width: 100%;
           }
 
-           .dropdown-menu {
+          .dropdown-menu {
               position: static;
               min-width: 100%;
               grid-template-columns: 1fr;
@@ -815,8 +813,7 @@
       }
 
 
-      @media (max-width: 480px) 
-      {
+      @media (max-width: 480px) {
 
           header {
               height: 60px;
@@ -827,7 +824,7 @@
               height: 40px;
               width: 40px;
           }
-       
+
 
 
           .navbar {
@@ -891,7 +888,7 @@
 
           }
 
- 
+
           .footer-container {
               grid-template-columns: 1fr;
               gap: 20px;

@@ -39,8 +39,8 @@ header {
 
 .head-icon {
     color: #F8FAFC;
-    cursor: pointer;
-    gap: 10px;
+    cursor: text;
+     gap: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +58,7 @@ header {
 }
 
 .nav-left {
+   
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

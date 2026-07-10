@@ -35,7 +35,7 @@
 
     .head-icon {
         color: #F8FAFC;
-        cursor: pointer;
+          cursor: text;
         gap: 10px;
         display: flex;
         justify-content: center;
