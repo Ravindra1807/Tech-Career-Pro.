@@ -40,7 +40,7 @@ header {
 .head-icon {
     color: #F8FAFC;
     cursor: text;
-     gap: 10px;
+    gap: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ header {
 }
 
 .nav-left {
-   
+
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -282,8 +282,6 @@ header {
 }
 
 .button {
-   
-
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
@@ -936,7 +934,7 @@ header {
         text-align: center;
     }
 
-    .footer-box .U h2  {
+    .footer-box .U h2 {
         font-size: 20px;
     }
 
